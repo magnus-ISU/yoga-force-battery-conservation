@@ -13,5 +13,5 @@ package() {
 	mkdir -p "${pkgdir}/usr/lib/"
 	mkdir -p "${pkgdir}/usr/lib/systemd/system/"
 	install -Dm755 "$srcdir/$pkgname/yoga-force-battery-conservation" "${pkgdir}/usr/lib/"
-	install -Dm644 "$srcdir/$pkgname/yoga-force-battery-conservation.service "$pkgdir/usr/lib/systemd/system/yoga-force-battery-conservation.service"
+	install -Dm644 "$srcdir/$pkgname/yoga-force-battery-conservation.service" "$pkgdir/usr/lib/systemd/system/yoga-force-battery-conservation.service"
 }
