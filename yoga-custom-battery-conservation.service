@@ -1,0 +1,9 @@
+[Unit]
+Description=Force Battery Conservation at specified battery percentage, rather than at 60% always
+
+[Service]
+ExecStart=/usr/lib/yoga-custom-battery-conservation.sh
+
+[Install]
+WantedBy=default.target
+
