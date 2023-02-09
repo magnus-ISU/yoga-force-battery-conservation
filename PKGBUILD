@@ -1,5 +1,5 @@
 # Maintainer: Magnus Anderson <magnus@iastate.edu>
-pkgname=yoga-force-battery-conservation
+pkgname=yoga-custom-battery-conservation
 pkgdesc="Enable battery conservation when above custom% battery for Lenovo Yoga laptops"
 url="https://github.com/magnus-ISU/$pkgname"
 source=("git+$url")
